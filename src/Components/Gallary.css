@@ -1,0 +1,75 @@
+.title {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50%; /* Center the title horizontally */
+    transform: translateX(-50%); /* Ensure true horizontal centering */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .image-grid {
+    display: flex;
+    gap: 20px; /* Increase gap for better spacing */
+    flex-wrap: wrap;
+    justify-content: center; /* Center the grid items */
+    margin-top: 80px; /* Prevent overlap with the title */
+  }
+  
+  .image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 300px;
+    background-color: #fff; /* Add background for better contrast */
+    border-radius: 8px; /* Match the image border-radius */
+  }
+  
+  .image-card img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .image-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow for hover */
+  }
+  
+  .image-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px; /* Adjust spacing for better visual balance */
+  }
+  
+  button {
+    background-color: #f44;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #d33; /* Darker shade on hover for feedback */
+  }
+  p{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    left: 50%; /* Center the title horizontally */
+    transform: translateX(-50%); /* Ensure true horizontal centering */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+  }
